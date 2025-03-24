@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+     <center>
+        <table>
+            <thead>
+                <h1>Create Account</h1>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="fname">First name*</label></td>
+                    <td><label for="lname">Last name</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" placeholder="enter your first name" id="fname" required></td>
+                    <td><input type="text" placeholder="enter your last name" id="lname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mail">Email*</label></td>
+                </tr>
+
+                <tr><td colspan="2"><input size="60" type="text" placeholder="enter your email" id="mail" required></td></tr>
+
+                <tr>
+                    <td><label for="pass">Password*</label></td>
+                    <td><label for="passw">confirm Password*</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="pass" placeholder="enter your password" pattern="{0-9}[10]" required></td>
+                    <td><input type="text" id="passw" placeholder="enter your password again"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Gender:</label></td>
+                    <td><label for="">Hobbies</label></td>
+                </tr>
+
+                <tr>
+                    <td>
+                    <input id="tick1" type="radio" name="Gender">
+                    <label for="tick1">Male</label>
+                    <input id="tick2"type="radio" name="Gender">
+                    <label for="tick2">Female</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="c1">
+                        <label for="c1">Music</label>
+                        <input type="checkbox" name="" id="c2">
+                        <label for="c2">Sports</label>
+                        <input type="checkbox" name="" id="c3">
+                        <label for="c3">Travel</label>
+                        <input type="checkbox" name="" id="c4">
+                        <label for="c4">Movies</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Souce of Income</label></td>
+                    <td><label for="">Income</label></td>
+                </tr>
+
+                <tr>
+                    <td><select name="" id="">
+                        <option value="">Employed</option>
+                    </select></td>
+                    <td><input type="range" min="0" max="20000">20K</td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Upload Profile Picture</label></td>
+                    <td><label for="">Age</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="file" name="" id="" placeholder="No  file chosen"></td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+
+                <tr><td><label for="">Bio</label></td></tr>
+
+                <tr><td><textarea name="" id=""></textarea></td></tr>
+
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" value="Create"></td>
+                </tr>
+            </tbody>
+        </table>
+     </center>
+    </form>
+</body>
+</html>

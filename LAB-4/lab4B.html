@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+<body>
+    <form>
+    <center>
+    <table cellspacing="15px">
+        <caption><h1>Employee Registration</h1></caption>
+        <tr><th colspan="6"><h3>Personal Information</h3></th></tr>
+        <tr>
+            <td><label for="Employee">Employee Id</label></td>
+            <td>:</td>
+            <td><input type="number" id="Employee" placeholder="Enter Employee Id"></td>
+            <td><label for="name">Employee Name</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" placeholder="Enter Employee Name"></td>
+        </tr>
+        <tr>
+            <td><label for="mail">Email</label></td>
+            <td>:</td>
+            <td><input type="email" id="mail" placeholder="Enter Email"></td>
+            <td><label for="number">Contact Number</label></td>
+            <td>:</td>
+            <td><input type="text" id="number" placeholder="Enter Contact No"></td>
+        </tr>
+        <tr>
+            <td>Marital Status</td>
+            <td>:</td>
+            <td>
+                <input id="tick1" type="radio" name="Status">
+                <label for="tick1">single</label>
+                <input id="tick2"type="radio" name="Status">
+                <label for="tick2">Married</label>
+                </td>
+        </tr>
+
+        <!-- Space between sections -->
+        <tr><td colspan="6"></td></tr>
+
+        <tr><th colspan="6"><h3>Education Qualifications</h3></tr>
+        <tr>
+            <td><label for="education">Education</label></td>
+            <td>:</td>
+            <td><input type="text" id="education" placeholder="Enter Education Details"></td>
+            <td><label for="experience">Experience</label></td>
+            <td>:</td>
+            <td><input type="text" id="experience" placeholder="Enter Experience Details"></td>
+        </tr>
+
+        <!-- Space between sections -->
+        <tr><td colspan="6"></td></tr>
+
+        <tr><th colspan="6"><h3>Job Details</center></h3></tr>
+        <tr>
+            <td><label for="des">Designation</label></td>
+            <td>:</td>
+            <td><input type="text" id="des" placeholder="Enter Designation"></td>
+            <td><label for="job">Job Location</label></td>
+            <td>:</td>
+            <td><input type="text" id="job" placeholder="Enter Job Location"></td>
+        </tr>
+        <tr>
+            <td><label for="salary">Salary</label></td>
+            <td>:</td>
+            <td><input type="text" id="salary" placeholder="Enter Salary Details"></td>
+        </tr>
+
+        <tr><td colspan="6"><hr></td></tr>
+        <tr><td colspan="6" align="center"><input type="submit" value="Register"></td></tr>
+    </table>
+    </center>
+    </form>
+</body>
+</html>
